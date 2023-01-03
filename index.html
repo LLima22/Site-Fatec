@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aula Comentarios">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Alex Lopes">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
+    rel="stylesheet"/>
+    <link rel="icon" href="img/f_fatec.ico" type="image/x-icon">
+    <title>Site de Compras</title>
+</head>
+<body>
+    <header id="topo">
+        <div id="acessibilidade">
+            <ul id="atalhos">
+                <li><a href="#conteudo" accesskey="1" title="Ir diretamente para o conteúdo">ir para o conteúdo [1]</a></li>
+                <li><a href="#menu" accesskey="2" title="Ir diretamente para o menu">Ir para o menu [2]</a></li>
+                <li><a href="#rodape" accesskey="3" title="Ir diretamente para o rodapé">Ir para o roda pé [3]</a></li>
+
+                <li id="pgacess"><a href="acessibilidade.html" title="Ir para a página de Acessibilidade">ACESSIBILIDADE</a></li>
+                <li class="contraste"><a href="javascript:void(0);" id="contraste">CONTRASTE PRETO</a></li>
+                <li class="contraste"><a href="javascript:void(0);" id="sem_contraste">SEM CONTRASTE</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="aumentar">A+</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="diminuir">A-</a></li>
+            </ul>
+        </div>
+        <div id="navps">
+            <ul id="atalhos">
+                <img id="logo_fatec" src="img/logo_fatec_branco.png" alt="Imagem Html">
+                <img id="logo_cps" src="img/2020_logo_cps_gov_sec_versao_horizontal.png" alt="Imagem Html">
+            </ul>
+        </div>
+        <nav>
+            <label for="bt_menu"><img src="img/outline_menu_white_24dp.png" alt=""></label>
+            <input type="checkbox" id="bt_menu">
+            <ul id="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="personalizada.html">Personalizados</a></li>
+                <li><a href="#">Modelos</a>
+                    <ul>
+                        <li><a href="modelo_pronto.html">Modelo Pronto</a></li>
+                        <li><a href="outros_personalizados.html">Outros Personalizados</a></li>
+                    </ul>
+                </li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    <div id="banner">
+    </div>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+    </header>
+    <main id="conteudo">
+        <h1>Vendas de Produtos</h1>
+        <section>
+
+            <div class="row">
+                <div class="card green">
+                  <h2>Personalizada</h2>
+                  <p>Monte seu Modelo</p>
+                  <img class="image" src="img/outline_dashboard_customize_black_24dp.png" alt="money" />
+                </div>
+           
+                <div class="card blue">
+                  <h2>Modelo Pronto</h2>
+                  <p>Modelos já Feitos</p>
+                  <img class="image" src="img/outline_lightbulb_black_24dp.png" alt="settings" />
+                </div>
+        
+                <div class="card red">
+                  <h2>Outros Personalizados</h2>
+                  <p>Produtos em Estoque</p>
+                  <img class="image" src="img/outline_store_black_24dp.png" alt="article" />
+                </div>
+              </div>
+            </section>
+            <section>
+              <div class="cards">
+                <div class="cardt">
+                    <div class="text-card">
+                        <h1>Camiseta Fatec</h1>
+                    </div>
+                    <img src="img/unnamed.jpg" width="200px" height="190px">
+                    <div class="info-cell">
+                        <P>Venha fazer parte da Fatec</P>
+                    </div>
+                    <div class="info-cell-preco">
+                        <P>R$:39,99</P>
+                    </div>
+                </div>
+            
+                <div class="cardt">
+                    <div class="text-card">
+                        <h1>Blusa Fatec</h1>
+                    </div>
+                    <img src="img/unnamed (2).jpg" width="200px" height="190px">
+                    <div class="info-cell">
+                        <P>Venha fazer parte da Fatec</P>
+                    </div>
+                    <div class="info-cell-preco">
+                        <P>R$:20,00</P>
+                    </div>
+                </div>
+          
+                <div class="cardt">
+                    <div class="text-card">
+                        <h1>Camiseta Fatec</h1>
+                    </div>
+                    <img src="img/08601138e9.jpg" width="200px" height="190px">
+                    <div class="info-cell">
+                        <P>Venha fazer parte da Fatec</P>
+                    </div>
+                    <div class="info-cell-preco">
+                        <P>R$:30,00</P>
+                    </div>
+                </div>
+            </section>
+            <!--Cards Segunda Fileira-->
+        <section>
+            <div class="cards">
+                <div class="cardt">
+                    <div class="text-card">
+                        <h1>Calça Fatec</h1>
+                    </div>
+                    <img src="img/unnamed (3).jpg" width="200px" height="190px">
+                    <div class="info-cell">
+                        <P>Venha fazer parte da Fatec</P>
+                    </div>
+                    <div class="info-cell-preco">
+                        <P>R$:15,00</P>
+                    </div>
+                </div>
+            
+                <div class="cardt">
+                    <div class="text-card">
+                        <h1>Boné Fatec</h1>
+                    </div>
+                    <img src="img/607e78ac98.jpg" width="200px" height="190px">
+                    <div class="info-cell">
+                        <P>Venha fazer parte da Fatec</P>
+                    </div>
+                    <div class="info-cell-preco">
+                        <P>R$:39,99</P>
+                    </div>
+                </div>
+          
+                <div class="cardt">
+                    <div class="text-card">
+                        <h1>Regata Fatec</h1>
+                    </div>
+                    <img src="img/unnamed (4).jpg" width="200px" height="190px">
+                    <div class="info-cell">
+                        <P>Venha fazer parte da Fatec</P>
+                    </div>
+                    <div class="info-cell-preco">
+                        <P>R$:40,00</P>
+                    </div>
+                </div>
+        </section>
+        <!--Cards Terceira Fileira-->
+        <section>
+            <div class="cards">
+                <div class="cardt">
+                    <div class="text-card">
+                        <h1>Camiseta Masculina Programmer</h1>
+                    </div>
+                    <img src="img/camiseta-adulto-personalizada-amo-tecnologia-da-informacao.jpg" width="200px" height="190px">
+                    <div class="info-cell">
+                        <P>Camiseta programação</P>
+                    </div>
+                    <div class="info-cell-preco">
+                        <P>R$:45,90</P>
+                    </div>
+                </div>
+            
+                <div class="cardt">
+                    <div class="text-card">
+                        <h1>Camiseta Masculina Programmer</h1>
+                    </div>
+                    <img src="img/51zUqvHekxL._AC_SX569_.jpg" width="200px" height="190px">
+                    <div class="info-cell">
+                        <P>Camiseta programação</P>
+                    </div>
+                    <div class="info-cell-preco">
+                        <P>R$:15,90</P>
+                    </div>
+                </div>
+          
+                <div class="cardt">
+                    <div class="text-card">
+                        <h1>Camiseta Feminina Programmer</h1>
+                    </div>
+                    <img src="img/f6f4bb52603fdec186af82c4c454cf7f--funny-t-shirts-shirt-ideas.jpg" width="200px" height="190px">
+                    <div class="info-cell">
+                        <P>Camiseta programação</P>
+                    </div>
+                    <div class="info-cell-preco">
+                        <P>R$:29,99</P>
+                    </div>
+                </div>
+        </section>
+    </main>
+            <!--pagination-->
+        <section>
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+              </div>
+        </section>
+    <footer id="rodape" >
+        <section id="mapt">
+            <h4>Mapa do Site de Compras</h4>
+            <ul class="map">
+                <li>Esse site foi desenvolvido para a compra de produtos da instituição</li>
+                <li><img src="img/outline_shopping_bag_white_24dp.png"></li>
+                <li><a href="">Site de Compras</a></li>
+                <li><img src="img/outline_inventory_2_white_24dp.png"></li>
+                <li><a href="">Produtos</a></li>
+                <li><img src="img/outline_content_paste_white_24dp.png"></li>
+                <li><a href="">Personalizadas</a></li>
+                <li><img src="img/outline_lightbulb_white_24dp.png"></li>
+                <li><a href="">Modelos</li>
+                <li><img src="img/outline_account_circle_white_24dp.png"></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><img src="img/outline_email_white_24dp.png"></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><img src="img/outline_devices_white_24dp.png"></li>
+                <li><a href="">Sobre</a></li>
+            </ul>
+        </section>
+        <section id="informacoes">
+            <h4>Informações</h4>
+            <ul class="info">
+                <li>Faculdade de Tecnologia da Zona Leste</li>
+                <li><img src="img/outline_location_on_white_24dp.png"></li>
+                <li>Avenida Águia de Haia, 2983. Cidade A.E. Carvalho, CEP 03694-000, São Paulo-SP.</li>
+                <li><img src="img/outline_call_white_24dp.png"></li>
+                <li>(11) 2049-2600 (11) 2026-0378 (11) 2026-1303 (11) 2041-2187.</li>
+                <li><img src="img/outline_email_white_24dp.png"></li>
+                <li><a href="#">Contato</a></li>
+                <li><img src="img/outline_computer_white_24dp.png"></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </section>
+        <section id="redes">
+            <h4>Redes Sociais</h4>
+            <ul class="imgredes">
+               <li><a href="#"><img class="imgredest" src="img/instagram-icon.png"></a></li> 
+               <li><a href="#"><img class="imgredest" src="img/Facebook_Logo.png"></a></li> 
+               <li><a href="#"><img class="imgredest" src="img/twitter-logo-3.png"></a></li> 
+               <li><a href="#"><img class="imgredest" src="img/youtube.png"></a></li> 
+               <li><a href="#"><img class="imgredest" src="img/linkdin.png"></a></li> 
+            </ul>
+            <ul class="criadores">
+                <li>Desenvolvido por Igor Gustavo Alves Gonzalez. Alex Lopes dos Santos Dias. Rafaela Bezerra Martins. Gabriel Lopes Ferreira Ramos. Lucas Lima Gomes &copy; 2021.</li>
+            </ul>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/contraste.js"></script>
+    <script src="js/fonte.js"></script>
+</body>
+</html>
